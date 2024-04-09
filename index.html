@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ana's Magical Web Apps</title>
+    <!-- Tailwind 3 Play CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="bg-blue-500 text-white py-4">
+      <div class="container mx-auto flex justify-between items-center">
+        <a href="#" class="text-2xl font-bold">Ana's Magical Web Apps</a>
+        <nav>
+          <ul class="flex space-x-4">
+            <li><a href="#" class="hover:text-gray-300">Home</a></li>
+            <li><a href="#" class="hover:text-gray-300">Apps</a></li>
+            <li><a href="#" class="hover:text-gray-300">About</a></li>
+            <li><a href="#" class="hover:text-gray-300">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="bg-gray-100 py-20">
+        <div class="container mx-auto">
+          <h1 class="text-4xl font-bold mb-4">Discover Ana's Magical Web Apps</h1>
+          <p class="text-lg mb-8">
+            Unlock the power of Ana's enchanting web applications and transform
+            your digital experience.
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white shadow-md rounded-lg p-6">
+              <img
+                src="GPTENG:get_img("web app 1")"
+                alt="Web App 1"
+                class="w-full h-48 object-cover rounded-t-lg"
+              />
+              <h3 class="text-2xl font-bold mt-4 mb-2">Web App 1</h3>
+              <p class="text-gray-600 mb-4">
+                Discover the magic of our first web app, designed to streamline
+                your workflow.
+              </p>
+              <a href="#" class="text-blue-500 hover:text-blue-700">Learn More</a>
+            </div>
+            <div class="bg-white shadow-md rounded-lg p-6">
+              <img
+                src="GPTENG:get_img("web app 2")"
+                alt="Web App 2"
+                class="w-full h-48 object-cover rounded-t-lg"
+              />
+              <h3 class="text-2xl font-bold mt-4 mb-2">Web App 2</h3>
+              <p class="text-gray-600 mb-4">
+                Explore the enchanting features of our second web app, designed
+                to revolutionize your digital experience.
+              </p>
+              <a href="#" class="text-blue-500 hover:text-blue-700">Learn More</a>
+            </div>
+            <div class="bg-white shadow-md rounded-lg p-6">
+              <img
+                src="GPTENG:get_img("web app 3")"
+                alt="Web App 3"
+                class="w-full h-48 object-cover rounded-t-lg"
+              />
+              <h3 class="text-2xl font-bold mt-4 mb-2">Web App 3</h3>
+              <p class="text-gray-600 mb-4">
+                Discover the magic of our third web app, designed to simplify
+                your daily tasks.
+              </p>
+              <a href="#" class="text-blue-500 hover:text-blue-700">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-blue-500 text-white py-20">
+        <div class="container mx-auto">
+          <h2 class="text-4xl font-bold mb-4">About Ana's Magical Web Apps</h2>
+          <p class="text-lg mb-8">
+            At Ana's Magical Web Apps, we believe in the power of technology to
+            transform your digital experience. Our team of talented developers
+            and designers have crafted a suite of enchanting web applications
+            that will make your life easier and more efficient.
+          </p>
+          <a href="#" class="bg-white text-blue-500 px-6 py-3 rounded-lg hover:bg-gray-200">
+            Learn More
+          </a>
+        </div>
+      </section>
+
+      <section class="bg-gray-100 py-20">
+        <div class="container mx-auto">
+          <h2 class="text-4xl font-bold mb-4">Contact Us</h2>
+          <p class="text-lg mb-8">
+            Have a question or want to learn more about our magical web apps?
+            Get in touch with us today!
+          </p>
+          <form class="max-w-md mx-auto">
+            <div class="mb-4">
+              <label for="name" class="block text-gray-700 font-bold mb-2">
+                Name
+              </label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                placeholder="Enter your name"
+              />
+            </div>
+            <div class="mb-4">
+              <label for="email" class="block text-gray-700 font-bold mb-2">
+                Email
+              </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                placeholder="Enter your email"
+              />
+            </div>
+            <div class="mb-4">
+              <label for="message" class="block text-gray-700 font-bold mb-2">
+                Message
+              </label>
+              <textarea
+                id="message"
+                name="message"
+                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                rows="5"
+                placeholder="Enter your message"
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-blue-500 text-white py-4">
+      <div class="container mx-auto flex justify-between items-center">
+        <p>&copy; 2023 Ana's Magical Web Apps. All rights reserved.</p>
+        <div class="flex space-x-4">
+          <a href="#" class="hover:text-gray-300">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" class="hover:text-gray-300">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="hover:text-gray-300">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
